@@ -229,9 +229,15 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
     <Content Include="testimonials.aspx" />
+    <Content Include="tutorials\week2\2controls.aspx" />
     <Content Include="tutorials\week2\clickevent.aspx" />
     <Content Include="tutorials\week2\datetime.aspx" />
+    <Content Include="tutorials\week2\disviewstate.aspx" />
     <Content Include="tutorials\week2\htmlcontrol.aspx" />
+    <Content Include="tutorials\week2\imgbutton.aspx" />
+    <Content Include="tutorials\week2\ispostback.aspx" />
+    <Content Include="tutorials\week2\viewsequence.aspx" />
+    <Content Include="tutorials\week2\viewstate.aspx" />
     <Content Include="welcome.aspx" />
     <Content Include="guest.Master" />
     <Content Include="assets\.DS_Store" />
@@ -381,6 +387,13 @@
     <Compile Include="testimonials.aspx.designer.cs">
       <DependentUpon>testimonials.aspx</DependentUpon>
     </Compile>
+    <Compile Include="tutorials\week2\2controls.aspx.cs">
+      <DependentUpon>2controls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week2\2controls.aspx.designer.cs">
+      <DependentUpon>2controls.aspx</DependentUpon>
+    </Compile>
     <Compile Include="tutorials\week2\clickevent.aspx.cs">
       <DependentUpon>clickevent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -395,12 +408,47 @@
     <Compile Include="tutorials\week2\datetime.aspx.designer.cs">
       <DependentUpon>datetime.aspx</DependentUpon>
     </Compile>
+    <Compile Include="tutorials\week2\disviewstate.aspx.cs">
+      <DependentUpon>disviewstate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week2\disviewstate.aspx.designer.cs">
+      <DependentUpon>disviewstate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="tutorials\week2\htmlcontrol.aspx.cs">
       <DependentUpon>htmlcontrol.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="tutorials\week2\htmlcontrol.aspx.designer.cs">
       <DependentUpon>htmlcontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week2\imgbutton.aspx.cs">
+      <DependentUpon>imgbutton.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week2\imgbutton.aspx.designer.cs">
+      <DependentUpon>imgbutton.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week2\ispostback.aspx.cs">
+      <DependentUpon>ispostback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week2\ispostback.aspx.designer.cs">
+      <DependentUpon>ispostback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week2\viewsequence.aspx.cs">
+      <DependentUpon>viewsequence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week2\viewsequence.aspx.designer.cs">
+      <DependentUpon>viewsequence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week2\viewstate.aspx.cs">
+      <DependentUpon>viewstate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week2\viewstate.aspx.designer.cs">
+      <DependentUpon>viewstate.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

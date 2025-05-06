@@ -93,11 +93,24 @@
                                             href="~/tutorials/week2/datetime">Date and Time</a></li>
                                         <li><a runat="server" class="dropdown-item"
                                             href="~/tutorials/week2/htmlcontrol">Html Control</a></li>
-                                    <li><a runat="server" class="dropdown-item"
-                                        href="~/tutorials/week2/clickevent">Click Events</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/clickevent">Click Events</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/2controls">2 Controls and 1 Event</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/imgbutton">Image Button</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/viewstate">View State</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/disviewstate">Disable View State</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/viewsequence">View Sequence</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/ispostback">Page.IsPostBack</a></li>
+
+                                    </ul>
+                                </li>
                             </ul>
-                        </li>
-                        </ul>
                         </li>
                         <%-- End of tutorial menu--%>
                         <%-- Start of labs menu--%>
@@ -124,11 +137,11 @@
                                             href="~/tutorials/week2/datetime">Date and Time</a></li>
                                         <li><a runat="server" class="dropdown-item"
                                             href="~/tutorials/week2/htmlcontrol">Html Control</a></li>
-                                    <li><a runat="server" class="dropdown-item"
-                                        href="~/tutorials/week2/clickevent">Click Events</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week2/clickevent">Click Events</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </li>
-                        </ul>
                         </li>
                         <%-- End of labs menu--%>
 
