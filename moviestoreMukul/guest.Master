@@ -120,23 +120,13 @@
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu dropright" aria-labelledby="dropdown06">
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
-                                        href="#">week 1</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a runat="server" class="dropdown-item"
-                                            href="~/tutorials/week1/demo1">Demo exercise 1</a></li>
-                                        <li><a runat="server" class="dropdown-item"
-                                            href="~/tutorials/week1/demo2">Demo exercise 2</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle"
                                         data-bs-toggle="dropdown" href="#">week 2</a>
                                     <ul class="dropdown-menu">
                                         <li><a runat="server" class="dropdown-item"
-                                            href="~/tutorials/week2/datetime">Date and Time</a></li>
+                                            href="~/labs/week2/ex1">exercise 1</a></li>
                                         <li><a runat="server" class="dropdown-item"
-                                            href="~/tutorials/week2/htmlcontrol">Html Control</a></li>
+                                            href="~/labs/week2/ex2">exercise 2</a></li>
                                         <li><a runat="server" class="dropdown-item"
                                             href="~/tutorials/week2/clickevent">Click Events</a></li>
                                     </ul>

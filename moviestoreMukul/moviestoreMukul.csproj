@@ -199,6 +199,7 @@
     <Content Include="images\support.jpg" />
     <Content Include="index.aspx" />
     <Content Include="labs\week2\ex1.aspx" />
+    <Content Include="labs\week2\ex2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -364,6 +365,13 @@
     </Compile>
     <Compile Include="labs\week2\ex1.aspx.designer.cs">
       <DependentUpon>ex1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labs\week2\ex2.aspx.cs">
+      <DependentUpon>ex2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labs\week2\ex2.aspx.designer.cs">
+      <DependentUpon>ex2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
