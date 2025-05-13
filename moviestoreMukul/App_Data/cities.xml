@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cities>
+	<city>
+		<cityId>
+			001
+		</cityId>
+		<cityName>
+			Port Louis
+		</cityName>
+	</city>
+	<city>
+		<cityId>
+			002
+		</cityId>
+		<cityName>
+			Tamatave
+		</cityName>
+	</city>
+	<city>
+		<cityId>
+			003
+		</cityId>
+		<cityName>
+			Marseille
+		</cityName>
+	</city>
+</cities>

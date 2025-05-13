@@ -110,6 +110,14 @@
 
                                     </ul>
                                 </li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown"
+                                        href="#">week 3</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/tutorials/week3/register">Register</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </li>
                         <%-- End of tutorial menu--%>
@@ -186,7 +194,7 @@
                     </div>
                     <div class="col-sm-3 border border-3 mx-auto">
                         <a target="_blank" href="#">
-                            <asp:Image ID="Image3" runat="server" CssClass="p-2 w-100" ImageUrl="~/images/harry.jpg" />
+                            <asp:AdRotator ID="AdRotator1" runat="server" AdvertisementFile="~/App_Data/ads.xml" />
 
                         </a>
 

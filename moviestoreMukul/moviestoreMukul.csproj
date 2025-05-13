@@ -100,6 +100,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\ads.xml" />
+    <Content Include="App_Data\cities.xml" />
     <Content Include="assets\css\main.css" />
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\details-1.png" />
@@ -192,10 +194,21 @@
     <Content Include="favicon.ico" />
     <Content Include="gallery.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\avatar-163725.jpg" />
+    <Content Include="images\bell.png" />
     <Content Include="images\brave.jpg" />
+    <Content Include="images\calendar.png" />
+    <Content Include="images\email.png" />
     <Content Include="images\game.jpg" />
     <Content Include="images\harry.jpg" />
     <Content Include="images\log.png" />
+    <Content Include="images\regis.png" />
+    <Content Include="images\register.png" />
+    <Content Include="images\smiley.jpg" />
+    <Content Include="images\social.png" />
     <Content Include="images\support.jpg" />
     <Content Include="index.aspx" />
     <Content Include="labs\week2\ex1.aspx" />
@@ -239,6 +252,7 @@
     <Content Include="tutorials\week2\ispostback.aspx" />
     <Content Include="tutorials\week2\viewsequence.aspx" />
     <Content Include="tutorials\week2\viewstate.aspx" />
+    <Content Include="tutorials\week3\register.aspx" />
     <Content Include="welcome.aspx" />
     <Content Include="guest.Master" />
     <Content Include="assets\.DS_Store" />
@@ -458,6 +472,13 @@
     <Compile Include="tutorials\week2\viewstate.aspx.designer.cs">
       <DependentUpon>viewstate.aspx</DependentUpon>
     </Compile>
+    <Compile Include="tutorials\week3\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week3\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -474,10 +495,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="tutorials\week10\" />
     <Folder Include="tutorials\week11\" />
-    <Folder Include="tutorials\week3\" />
     <Folder Include="tutorials\week4\" />
     <Folder Include="tutorials\week5\" />
     <Folder Include="tutorials\week6\" />
