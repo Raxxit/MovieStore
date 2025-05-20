@@ -38,18 +38,34 @@ namespace moviestoreMukul.tutorials.week3
                 ddlcity.DataBind();
 
                 ddlcity.Items.Insert(0, "Choose city");
+
+
             }
 
-            
+            rvdob.MinimumValue = DateTime.Now.AddYears(-45).ToShortDateString();
+            rvdob.MaximumValue = DateTime.Now.AddYears(-18).ToShortDateString();
+            rvdob.Type = ValidationDataType.Date;
+
+
         }
 
         protected void btnregister_Click(object sender, EventArgs e)
         {
-
+            if (!Page.IsValid)
+            {
+                Response.Redirect("~/tutorials/week2/datetime");
+            }
         }
 
         protected void btnClear_Click(object sender, EventArgs e)
         {
+            txtfname.Text = "";
+            ddlcountry.SelectedIndex = 0;
+            radmale.Checked = true;
+            radfemale.Checked = false;
+            chkagreement.Checked = false;
+            imgsmiley.Visible = false;
+
 
         }
 
@@ -62,6 +78,22 @@ namespace moviestoreMukul.tutorials.week3
         protected void chkagreement_CheckedChanged(object sender, EventArgs e)
         {
             imgsmiley.ImageUrl = chkagreement.Checked ? "~/images/smiley.jpg" : "";
+        }
+
+        protected void ddlcountry_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lblmessage.Text = "You have selected " + ddlcountry.SelectedItem.Text;
+        }
+
+        protected void customvalidatorpass_ServerValidate(object source, ServerValidateEventArgs args)
+        {
+            if (args.Value.Length <= 5 && args.Value.Length <= 18)
+            {
+                args.IsValid = true;            }
+            else
+            {
+                args.IsValid = false;
+            }
         }
     }
 }

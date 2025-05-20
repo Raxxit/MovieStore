@@ -24,4 +24,12 @@
 			Marseille
 		</cityName>
 	</city>
+	<city>
+		<cityId>
+			004
+		</cityId>
+		<cityName>
+			Flacq
+		</cityName>
+	</city>
 </cities>

@@ -7,29 +7,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace moviestoreMukul
+namespace moviestoreMukul.labs.week2
 {
 
 
-    public partial class dummy
+    public partial class ex6
     {
 
         /// <summary>
-        /// form1 control.
+        /// ddloption control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
-        /// maincontent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder maincontent;
+        protected global::System.Web.UI.WebControls.DropDownList ddloption;
     }
 }

@@ -136,7 +136,15 @@
                                         <li><a runat="server" class="dropdown-item"
                                             href="~/labs/week2/ex2">exercise 2</a></li>
                                         <li><a runat="server" class="dropdown-item"
-                                            href="~/tutorials/week2/clickevent">Click Events</a></li>
+                                            href="~/labs/week2/transfertext">exercise 3</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/labs/week2/ex4">exercise 4</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/labs/week2/ex5">exercise 5</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/labs/week2/ex6">exercise 6</a></li>
+                                        <li><a runat="server" class="dropdown-item"
+                                            href="~/labs/week2/ex7">exercise 7</a></li>
                                     </ul>
                                 </li>
                             </ul>

@@ -190,7 +190,6 @@
     <Content Include="Content\menu.css" />
     <Content Include="Content\Site.css" />
     <Content Include="default.aspx" />
-    <Content Include="dummy.Master" />
     <Content Include="favicon.ico" />
     <Content Include="gallery.aspx" />
     <Content Include="Global.asax" />
@@ -201,6 +200,7 @@
     <Content Include="images\bell.png" />
     <Content Include="images\brave.jpg" />
     <Content Include="images\calendar.png" />
+    <Content Include="images\cross.gif" />
     <Content Include="images\email.png" />
     <Content Include="images\game.jpg" />
     <Content Include="images\harry.jpg" />
@@ -213,6 +213,11 @@
     <Content Include="index.aspx" />
     <Content Include="labs\week2\ex1.aspx" />
     <Content Include="labs\week2\ex2.aspx" />
+    <Content Include="labs\week2\ex4.aspx" />
+    <Content Include="labs\week2\ex5.aspx" />
+    <Content Include="labs\week2\ex6.aspx" />
+    <Content Include="labs\week2\ex7.aspx" />
+    <Content Include="labs\week2\transfertext.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -312,11 +317,9 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -341,13 +344,6 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="dummy.Master.cs">
-      <DependentUpon>dummy.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="dummy.Master.designer.cs">
-      <DependentUpon>dummy.Master</DependentUpon>
     </Compile>
     <Compile Include="gallery.aspx.cs">
       <DependentUpon>gallery.aspx</DependentUpon>
@@ -387,21 +383,42 @@
     <Compile Include="labs\week2\ex2.aspx.designer.cs">
       <DependentUpon>ex2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="labs\week2\ex4.aspx.cs">
+      <DependentUpon>ex4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labs\week2\ex4.aspx.designer.cs">
+      <DependentUpon>ex4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labs\week2\ex5.aspx.cs">
+      <DependentUpon>ex5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labs\week2\ex5.aspx.designer.cs">
+      <DependentUpon>ex5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labs\week2\ex6.aspx.cs">
+      <DependentUpon>ex6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labs\week2\ex6.aspx.designer.cs">
+      <DependentUpon>ex6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labs\week2\ex7.aspx.cs">
+      <DependentUpon>ex7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labs\week2\ex7.aspx.designer.cs">
+      <DependentUpon>ex7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="labs\week2\transfertext.aspx.cs">
+      <DependentUpon>transfertext.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="labs\week2\transfertext.aspx.designer.cs">
+      <DependentUpon>transfertext.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
     <Compile Include="testimonials.aspx.cs">
       <DependentUpon>testimonials.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
