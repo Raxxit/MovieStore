@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\repos\\moviestoreMukul_sol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E804DDB-8777-4AF1-B93B-0D5A2E0B3BC3}|moviestoreMukul\\moviestoreMukul.csproj|d:\\repos\\moviestoremukul_sol\\moviestoremukul\\tutorials\\week3\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9E804DDB-8777-4AF1-B93B-0D5A2E0B3BC3}|moviestoreMukul\\moviestoreMukul.csproj|solutionrelative:moviestoremukul\\tutorials\\week3\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\logincrtl.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:moviestoreMukul\\tutorials\\week5\\logincrtl.ascx||{F390D63C-F7D8-4E74-AA04-57C1ECF53D4D}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E804DDB-8777-4AF1-B93B-0D5A2E0B3BC3}|moviestoreMukul\\moviestoreMukul.csproj|D:\\repos\\moviestoreMukul_sol\\moviestoremukul\\tutorials\\week3\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E804DDB-8777-4AF1-B93B-0D5A2E0B3BC3}|moviestoreMukul\\moviestoreMukul.csproj|solutionrelative:moviestoremukul\\tutorials\\week3\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\logincrtl.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:moviestoreMukul\\tutorials\\week5\\logincrtl.ascx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E804DDB-8777-4AF1-B93B-0D5A2E0B3BC3}|moviestoreMukul\\moviestoreMukul.csproj|D:\\repos\\moviestoreMukul_sol\\moviestoremukul\\guest.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{9E804DDB-8777-4AF1-B93B-0D5A2E0B3BC3}|moviestoreMukul\\moviestoreMukul.csproj|solutionrelative:moviestoremukul\\guest.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:moviestoreMukul\\tutorials\\week5\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\guest.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:moviestoreMukul\\guest.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +26,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "guest.Master",
               "DocumentMoniker": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\guest.Master",
               "RelativeDocumentMoniker": "moviestoreMukul\\guest.Master",
               "ToolTip": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\guest.Master",
               "RelativeToolTip": "moviestoreMukul\\guest.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-05-06T05:44:45.363Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.aspx",
+              "DocumentMoniker": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\login.aspx",
+              "RelativeDocumentMoniker": "moviestoreMukul\\tutorials\\week5\\login.aspx",
+              "ToolTip": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\login.aspx",
+              "RelativeToolTip": "moviestoreMukul\\tutorials\\week5\\login.aspx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-27T07:51:25.228Z"
             },
             {
               "$type": "Bookmark",
@@ -51,29 +64,32 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "register.aspx.cs",
-              "DocumentMoniker": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week3\\register.aspx.cs",
-              "RelativeDocumentMoniker": "moviestoreMukul\\tutorials\\week3\\register.aspx.cs",
-              "ToolTip": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week3\\register.aspx.cs",
-              "RelativeToolTip": "moviestoreMukul\\tutorials\\week3\\register.aspx.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowF0AAAANAAAAAAAAAA==",
+              "Title": "logincrtl.ascx.cs",
+              "DocumentMoniker": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\logincrtl.ascx.cs",
+              "RelativeDocumentMoniker": "moviestoreMukul\\tutorials\\week5\\logincrtl.ascx.cs",
+              "ToolTip": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\logincrtl.ascx.cs",
+              "RelativeToolTip": "moviestoreMukul\\tutorials\\week5\\logincrtl.ascx.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T05:26:03.199Z"
+              "WhenOpened": "2025-05-27T07:49:59.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "register.aspx",
-              "DocumentMoniker": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week3\\register.aspx",
-              "RelativeDocumentMoniker": "moviestoreMukul\\tutorials\\week3\\register.aspx",
-              "ToolTip": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week3\\register.aspx",
-              "RelativeToolTip": "moviestoreMukul\\tutorials\\week3\\register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-05-13T05:16:41.156Z",
-              "EditorCaption": ""
+              "Title": "logincrtl.ascx",
+              "DocumentMoniker": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\logincrtl.ascx",
+              "RelativeDocumentMoniker": "moviestoreMukul\\tutorials\\week5\\logincrtl.ascx",
+              "ToolTip": "D:\\repos\\moviestoreMukul_sol\\moviestoreMukul\\tutorials\\week5\\logincrtl.ascx",
+              "RelativeToolTip": "moviestoreMukul\\tutorials\\week5\\logincrtl.ascx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003302|",
+              "WhenOpened": "2025-05-27T07:48:50.158Z"
             }
           ]
         }

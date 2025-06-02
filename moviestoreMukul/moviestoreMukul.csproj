@@ -209,7 +209,7 @@
     <Content Include="images\register.png" />
     <Content Include="images\smiley.jpg" />
     <Content Include="images\social.png" />
-    <Content Include="images\support.jpg" />
+    <Content Include="images2\support.jpg" />
     <Content Include="index.aspx" />
     <Content Include="labs\week2\ex1.aspx" />
     <Content Include="labs\week2\ex2.aspx" />
@@ -258,6 +258,14 @@
     <Content Include="tutorials\week2\viewsequence.aspx" />
     <Content Include="tutorials\week2\viewstate.aspx" />
     <Content Include="tutorials\week3\register.aspx" />
+    <Content Include="tutorials\week5\addressform.ascx" />
+    <Content Include="tutorials\week5\login.aspx" />
+    <Content Include="tutorials\week5\logincrtl.ascx" />
+    <Content Include="tutorials\week5\showrndquotation.aspx" />
+    <Content Include="tutorials\week5\uc\randomimage.ascx" />
+    <Content Include="tutorials\week5\showaddress.aspx" />
+    <Content Include="tutorials\week5\showrandomimage.aspx" />
+    <Content Include="tutorials\week5\uc\rndquotation.ascx" />
     <Content Include="welcome.aspx" />
     <Content Include="guest.Master" />
     <Content Include="assets\.DS_Store" />
@@ -496,6 +504,62 @@
     <Compile Include="tutorials\week3\register.aspx.designer.cs">
       <DependentUpon>register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="tutorials\week5\addressform.ascx.cs">
+      <DependentUpon>addressform.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\addressform.ascx.designer.cs">
+      <DependentUpon>addressform.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\logincrtl.ascx.cs">
+      <DependentUpon>logincrtl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\logincrtl.ascx.designer.cs">
+      <DependentUpon>logincrtl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\showrndquotation.aspx.cs">
+      <DependentUpon>showrndquotation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\showrndquotation.aspx.designer.cs">
+      <DependentUpon>showrndquotation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\uc\randomimage.ascx.cs">
+      <DependentUpon>randomimage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\uc\randomimage.ascx.designer.cs">
+      <DependentUpon>randomimage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\showaddress.aspx.cs">
+      <DependentUpon>showaddress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\showaddress.aspx.designer.cs">
+      <DependentUpon>showaddress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\showrandomimage.aspx.cs">
+      <DependentUpon>showrandomimage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\showrandomimage.aspx.designer.cs">
+      <DependentUpon>showrandomimage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week5\uc\rndquotation.ascx.cs">
+      <DependentUpon>rndquotation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week5\uc\rndquotation.ascx.designer.cs">
+      <DependentUpon>rndquotation.ascx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -515,7 +579,6 @@
     <Folder Include="tutorials\week10\" />
     <Folder Include="tutorials\week11\" />
     <Folder Include="tutorials\week4\" />
-    <Folder Include="tutorials\week5\" />
     <Folder Include="tutorials\week6\" />
     <Folder Include="tutorials\week7\" />
     <Folder Include="tutorials\week8\" />
