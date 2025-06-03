@@ -106,10 +106,7 @@
                     <asp:Label runat="server"
                         CssClass="form-label">Country</asp:Label>
                     <asp:DropDownList OnSelectedIndexChanged="ddlcountry_SelectedIndexChanged" ID="ddlcountry" CssClass="form-control" runat="server" AutoPostBack="true">
-                        <asp:ListItem Value="-1">Choose Country</asp:ListItem>
-                        <asp:ListItem Value="1">France</asp:ListItem>
-                        <asp:ListItem Value="2">Mauritius</asp:ListItem>
-                        <asp:ListItem Value="3">Madagascar</asp:ListItem>
+
                     </asp:DropDownList>
                     <asp:RequiredFieldValidator ControlToValidate="ddlcountry" InitialValue="-1" Display="Dynamic" ID="rfvcountry" Text="Required" SetFocusOnError="true" ForeColor="Red" runat="server" ErrorMessage="country is mandatory"></asp:RequiredFieldValidator>
 
