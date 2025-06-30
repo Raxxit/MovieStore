@@ -25,7 +25,7 @@
             <user:Login ID="userlogin" runat="server" ValidationGroup="Userlogin"/>
 
             <div class="my-3">
-                <asp:Button runat="server" Text="Sign In"
+                <asp:Button runat="server" ID="signin" OnClick="signin_Click" Text="Sign In"
                     CssClass="col-12 btn btn-outline-success btn-lg" />
             </div>
             <p>
@@ -35,6 +35,9 @@ an account yet? Join now"
                     CausesValidation="false" CssClass="btn btn-warning"
                     ValidationGroup="Userlogin"/><br />
             </p>
+            <asp:Label ID="lblmsg" runat="server" Text=""></asp:Label>
+
+
         </div>
     </div>
 

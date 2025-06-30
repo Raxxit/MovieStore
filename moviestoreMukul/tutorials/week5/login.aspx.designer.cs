@@ -51,6 +51,15 @@ namespace moviestoreMukul.tutorials.week5
         protected global::moviestoreMukul.tutorials.week5.logincrtl userlogin;
 
         /// <summary>
+        /// signin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button signin;
+
+        /// <summary>
         /// btnRegister control.
         /// </summary>
         /// <remarks>
@@ -58,5 +67,14 @@ namespace moviestoreMukul.tutorials.week5
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnRegister;
+
+        /// <summary>
+        /// lblmsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblmsg;
     }
 }

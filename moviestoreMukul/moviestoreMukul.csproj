@@ -307,7 +307,14 @@
     <Content Include="tutorials\week5\showrandomimage.aspx" />
     <Content Include="tutorials\week5\uc\rndquotation.ascx" />
     <Content Include="tutorials\week6\ex2.aspx" />
+    <Content Include="tutorials\week6\looptechnique.aspx" />
     <Content Include="tutorials\week6\showmovies.aspx" />
+    <Content Include="tutorials\week6\stats.aspx" />
+    <Content Include="tutorials\week7\details.aspx" />
+    <Content Include="tutorials\week7\ex1.aspx" />
+    <Content Include="tutorials\week7\managemovies.aspx" />
+    <Content Include="tutorials\week7\search.aspx" />
+    <Content Include="tutorials\week8\updateprofile.aspx" />
     <Content Include="welcome.aspx" />
     <Content Include="guest.Master" />
     <Content Include="assets\.DS_Store" />
@@ -665,12 +672,61 @@
     <Compile Include="tutorials\week6\ex2.aspx.designer.cs">
       <DependentUpon>ex2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="tutorials\week6\looptechnique.aspx.cs">
+      <DependentUpon>looptechnique.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week6\looptechnique.aspx.designer.cs">
+      <DependentUpon>looptechnique.aspx</DependentUpon>
+    </Compile>
     <Compile Include="tutorials\week6\showmovies.aspx.cs">
       <DependentUpon>showmovies.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="tutorials\week6\showmovies.aspx.designer.cs">
       <DependentUpon>showmovies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week6\stats.aspx.cs">
+      <DependentUpon>stats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week6\stats.aspx.designer.cs">
+      <DependentUpon>stats.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week7\details.aspx.cs">
+      <DependentUpon>details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week7\details.aspx.designer.cs">
+      <DependentUpon>details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week7\ex1.aspx.cs">
+      <DependentUpon>ex1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week7\ex1.aspx.designer.cs">
+      <DependentUpon>ex1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week7\managemovies.aspx.cs">
+      <DependentUpon>managemovies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week7\managemovies.aspx.designer.cs">
+      <DependentUpon>managemovies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week7\search.aspx.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week7\search.aspx.designer.cs">
+      <DependentUpon>search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tutorials\week8\updateprofile.aspx.cs">
+      <DependentUpon>updateprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tutorials\week8\updateprofile.aspx.designer.cs">
+      <DependentUpon>updateprofile.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -692,8 +748,6 @@
     <Folder Include="tutorials\week10\" />
     <Folder Include="tutorials\week11\" />
     <Folder Include="tutorials\week4\" />
-    <Folder Include="tutorials\week7\" />
-    <Folder Include="tutorials\week8\" />
     <Folder Include="tutorials\week9\" />
   </ItemGroup>
   <ItemGroup>
